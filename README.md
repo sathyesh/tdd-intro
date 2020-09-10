@@ -1,5 +1,5 @@
 # tddIntro
-This project contains the necessary code to understand the Test driven development
+This project contains the necessary info to understand the Test driven development
 
 ## Introduction
 
