@@ -1,0 +1,34 @@
+{
+  "name": "tdd-intro",
+  "version": "1.0.0",
+  "description": "This project contains the necessary information to understand the Test driven development.",
+  "main": "index.js",
+  "scripts": {
+    "test:integration": "NODE_ENV=test npx mocha 'src/integration-test/**/*.test.js' --recursive --require @babel/register --file mocha-setup.js --exit",
+    "test:unit": "NODE_ENV=test npx mocha 'src/unit-test/**/*.test.js' --recursive --require @babel/register --file mocha-setup.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sathyesh/tdd-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sathyesh/tdd-intro/issues"
+  },
+  "homepage": "https://github.com/sathyesh/tdd-intro#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "regenerator-runtime": "^0.13.7",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "chai-exclude": "^2.0.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.2",
+    "sinon": "^9.0.3"
+  }
+}
