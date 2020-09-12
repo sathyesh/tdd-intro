@@ -37,6 +37,7 @@ describe('getUserByUsername', () => {
         const actual = await getUserByUsername('def');
         console.log('actual',actual);
         expect(actual).to.be.equal(expected);
+        // expect(actual).to.be.null;
     });
     
 });
